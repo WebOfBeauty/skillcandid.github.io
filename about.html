@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!--====== Title ======-->
+    <title>Edubin - LMS Education HTML Template</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="css/slick.css" />
+
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <!--====== Nice Select css ======-->
+    <link rel="stylesheet" href="css/nice-select.css" />
+
+    <!--====== Nice Number css ======-->
+    <link rel="stylesheet" href="css/jquery.nice-number.min.css" />
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="css/default.css" />
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--====== Responsive css ======-->
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      /* patnar-section */
+
+      .patnar-section {
+        margin-top: 70px;
+        /* height: 10px; */
+        background-color: #f3f3f3;
+       
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        text-align: center;
+        padding: 30px 0; /* Adjust padding as needed */
+      }
+
+      .patnar-section h3 {
+        /* font-size: 2.5em; */
+        font-weight: 400;
+        color: #000; /* Set text color */
+      }
+
+      .image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-image {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.hover-image:hover {
+  transform: scale(1.1); /* Adjust the scaling factor as needed */
+}
+
+      /* Modal jumbotron START  */
+      .jumbotron-top-img {
+        position: relative;
+        background-image: url("images/bg-3.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 100px 0;
+      }
+
+      .overlay-container {
+        position: relative;
+      }
+
+      .overlay-img {
+        margin-top: -92px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        z-index: 1;
+      }
+
+      .text-overlay {
+        position: relative;
+        z-index: 2;
+      }
+
+      .jumbotron p {
+        color: #000;
+        font-size: 20px;
+      }
+
+      .jumbotron .main-btn1:hover {
+        border: 2px solid #000;
+      }
+
+      /* Add an overlay with the specified color */
+      .jumbotron-top-img::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #7ecc39; /* Overlay color */
+        opacity: 0.8; /* Adjust the opacity as needed */
+        z-index: 0;
+      }
+
+      /* Modal footer START */
+
+      .social-icons {
+        list-style: none;
+        padding: 0;
+      }
+
+      .social-icons li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+
+      .social-icons a {
+        display: block;
+        font-size: 24px;
+        width: 33px;
+        text-decoration: none;
+
+        color: #d1cfcf;
+        background-color: #eaeaea;
+        border-color: #eaeaea;
+        border-radius: 4px;
+      }
+      .social-icons a:hover {
+        color: #7ecc39;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+      <div class="loader rubix-cube">
+        <div class="layer layer-1"></div>
+        <div class="layer layer-2"></div>
+        <div class="layer layer-3 color-1"></div>
+        <div class="layer layer-4"></div>
+        <div class="layer layer-5"></div>
+        <div class="layer layer-6"></div>
+        <div class="layer layer-7"></div>
+        <div class="layer layer-8"></div>
+      </div>
+    </div>
+
+    <!--====== PRELOADER PART START ======-->
+
+    <!--====== HEADER PART START ======-->
+
+    <header id="header-part">
+      <div class="navigation navigation-2">
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-lg-11 col-md-10 col-sm-9 col-9">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logo2.png" alt="Logo" width="180" />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="active" href="index.html" style="color: #7ecc39"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="services.html">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a href="teachers.html">Teams</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <!-- nav -->
+            </div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-3">
+              <div class="right-icon text-right">
+                <ul>
+                  <li>
+                    <a href="#" id="search"><i class="fa fa-search"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-shopping-bag"></i><span>0</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- right icon -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== SEARCH BOX PART START ======-->
+
+    <div class="search-box">
+      <div class="serach-form">
+        <div class="closebtn">
+          <span></span>
+          <span></span>
+        </div>
+        <form action="#">
+          <input type="text" placeholder="Search by keyword" />
+          <button><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <!-- serach form -->
+    </div>
+
+    <!--====== SEARCH BOX PART ENDS ======-->
+
+    <!--====== PAGE BANNER PART START ======-->
+
+    <section
+      id="page-banner"
+      class="pt-105 pb-110 bg_cover"
+      data-overlay="8"
+      style="background-image: url(images/page-banner-1.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-banner-cont">
+              <h2>About Us</h2>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    About Us
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <!-- page banner cont -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== PAGE BANNER PART ENDS ======-->
+
+    <!--====== ABOUT PART START ======-->
+
+    <section id="about-page" class="pt-70 pb-110">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="section-title mt-50">
+              <h5>About us</h5>
+              <h2>Welcome to Skillcandid</h2>
+            </div>
+            <!-- section title -->
+            <div class="about-cont">
+              <p>
+                Skillcandid, a top-tier NYC graphic design and branding firm,
+                pioneers transformative commercial identities through creative
+                solutions. Specializing in logos, branding, websites, and apps,
+                our global impact stems from unique design experiences.<br />
+                <br />
+                From captivating logos to comprehensive marketing materials, we
+                leave a lasting impression. Join the change; refresh your brand
+                with Skillcandid cutting-edge designs for a remarkable visual
+                identity.
+              </p>
+            </div>
+          </div>
+          <!-- about cont -->
+          <div class="col-lg-7">
+            <div class="about-image mt-50">
+              <img src="images/about/about-2.jpg" alt="About" />
+            </div>
+            <!-- about imag -->
+          </div>
+        </div>
+        <!-- row -->
+        <div class="about-items pt-60">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div class="about-singel-items mt-30">
+                <span>01</span>
+                <h4>Why Choose us</h4>
+                <p>
+                  Lorem ipsum gravida nibh vel velit auctor aliquetn
+                  sollicitudirem quibibendum auci elit sollicitudirem
+                  quibibendum auci
+                </p>
+              </div>
+              <!-- about singel -->
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div class="about-singel-items mt-30">
+                <span>02</span>
+                <h4>Our Mission</h4>
+                <p>
+                  Lorem ipsum gravida nibh vel velit auctor aliquetn
+                  sollicitudirem quibibendum auci elit sollicitudirem
+                  quibibendum auci
+                </p>
+              </div>
+              <!-- about singel -->
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div class="about-singel-items mt-30">
+                <span>03</span>
+                <h4>Our vission</h4>
+                <p>
+                  Lorem ipsum gravida nibh vel velit auctor aliquetn
+                  sollicitudirem quibibendum auci elit sollicitudirem
+                  quibibendum auci
+                </p>
+              </div>
+              <!-- about singel -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- about items -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== COUNTER PART START ======-->
+
+    <div
+      id="counter-part"
+      class="bg_cover pt-65 pb-110"
+      data-overlay="8"
+      style="background-image: url(images/bg-2.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="singel-counter text-center mt-40">
+              <span><span class="counter">30,000</span>+</span>
+              <p>Students enrolled</p>
+            </div>
+            <!-- singel counter -->
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="singel-counter text-center mt-40">
+              <span><span class="counter">41,000</span>+</span>
+              <p>Courses Uploaded</p>
+            </div>
+            <!-- singel counter -->
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="singel-counter text-center mt-40">
+              <span><span class="counter">11,000</span>+</span>
+              <p>People certifie</p>
+            </div>
+            <!-- singel counter -->
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="singel-counter text-center mt-40">
+              <span><span class="counter">39,000</span>+</span>
+              <p>Global Teachers</p>
+            </div>
+            <!-- singel counter -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+
+    <!--====== COUNTER PART ENDS ======-->
+
+    <!--====== PATNAR LOGO PART START ======-->
+
+    <div class="container">
+      <!-- Bootstrap row to handle column placement -->
+      <div class="row">
+        <!-- Bootstrap column with custom styles -->
+        <div class="col-lg-12 patnar-section">
+          <!-- Content with h3 tag -->
+          <h3>VISIT OUR PORTFOLIO</h3>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+        <!-- Bootstrap row to handle column placement -->
+        <div class="row">
+          <!-- Bootstrap column with custom styles -->
+          <div class="col-lg-12">
+            <!-- Content with h3 tag -->
+            <div class="image-container">
+              <img src="images/portfolio1-1.jpg" alt="img" width="100%" class="hover-image" />
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+            <!-- Bootstrap column with custom styles -->
+            <div class="col-lg-12">
+              <!-- Content with h3 tag -->
+              <div class="image-container">
+                <img src="images/portfolio-2.jpg" alt="img" width="100%" class="hover-image" />
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <!-- Bootstrap column with custom styles -->
+            <div class="col-lg-12">
+              <!-- Content with h3 tag -->
+              <div class="image-container">
+                <img src="images/portfolio3-1.jpg" alt="img" width="100%" class="hover-image" />
+              </div>
+            </div>
+          </div>
+      </div>
+      
+
+    <!--====== PATNAR LOGO PART ENDS ======-->
+    <br />
+    <!-- Modal jumbotron START -->
+
+    <div class="container-fluid jumbotron jumbotron-top-img">
+      <div class="container overlay-container">
+        <img src="images/icon_rockets.png" alt="img" class="overlay-img" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="text-overlay">
+          <p>We're here to help your company thrive at<br />breakneck speed!</p>
+          <p>Through creative ideas, innovation, and strong determination</p>
+          <br />
+          <a class="main-btn main-btn1" href="#" role="button">Learn more</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal jumbotron ENDS -->
+
+    <!-- Modal footer START -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>
+            Copyright 2023 - 2024 |
+            <span style="color: #000">Skillcandid</span> ©
+          </p>
+          <ul class="social-icons">
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-behance"></i></a>
+            </li>
+            <!-- Add more social media icons as needed -->
+          </ul>
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TO TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <!--====== BACK TO TOP PART ENDS ======-->
+
+    <!--====== jquery js ======-->
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="js/slick.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Counter Up js ======-->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!--====== Nice Select js ======-->
+    <script src="js/jquery.nice-select.min.js"></script>
+
+    <!--====== Nice Number js ======-->
+    <script src="js/jquery.nice-number.min.js"></script>
+
+    <!--====== Count Down js ======-->
+    <script src="js/jquery.countdown.min.js"></script>
+
+    <!--====== Validator js ======-->
+    <script src="js/validator.min.js"></script>
+
+    <!--====== Ajax Contact js ======-->
+    <script src="js/ajax-contact.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="js/main.js"></script>
+
+    <!--====== Map js ======-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
+    <script src="js/map-script.js"></script>
+  </body>
+</html>
